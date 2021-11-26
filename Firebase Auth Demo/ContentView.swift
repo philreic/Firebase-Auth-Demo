@@ -6,16 +6,30 @@
 //
 
 import SwiftUI
+import FirebaseAuthUI
 
 struct ContentView: View {
+    
+    @Binding var loggedIn: Bool
+    
     var body: some View {
-        Text("Hello, world!")
-            .padding()
-    }
-}
+        
+        VStack {
+        Text("Welcome!")
+            
+            Button {
+                try! FUIAuth.defaultAuthUI()?.signOut()
+                loggedIn = false
+            } label: {
+                Text("Sign Out")
+            }
 
-struct ContentView_Previews: PreviewProvider {
-    static var previews: some View {
-        ContentView()
+    }
     }
 }
+//
+//struct ContentView_Previews: PreviewProvider {
+//    static var previews: some View {
+//        ContentView()
+//    }
+//}

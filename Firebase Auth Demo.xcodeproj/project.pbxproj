@@ -12,6 +12,8 @@
 		51BCB3942751140D00C848DF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 51BCB3932751140D00C848DF /* Assets.xcassets */; };
 		51BCB3972751140D00C848DF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 51BCB3962751140D00C848DF /* Preview Assets.xcassets */; };
 		51BCB39E275114CC00C848DF /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 51BCB39D275114CC00C848DF /* GoogleService-Info.plist */; };
+		51CEBDAB2751494800661DAC /* LoginForm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51CEBDAA2751494800661DAC /* LoginForm.swift */; };
+		51CEBDAD27514ECD00661DAC /* LaunchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51CEBDAC27514ECD00661DAC /* LaunchView.swift */; };
 		AC8DA0B34C04A4F302EFCCBE /* Pods_Firebase_Auth_Demo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D1286C46E95A46F0B1B706EB /* Pods_Firebase_Auth_Demo.framework */; };
 /* End PBXBuildFile section */
 
@@ -23,6 +25,8 @@
 		51BCB3932751140D00C848DF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		51BCB3962751140D00C848DF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		51BCB39D275114CC00C848DF /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		51CEBDAA2751494800661DAC /* LoginForm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginForm.swift; sourceTree = "<group>"; };
+		51CEBDAC27514ECD00661DAC /* LaunchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchView.swift; sourceTree = "<group>"; };
 		D1286C46E95A46F0B1B706EB /* Pods_Firebase_Auth_Demo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Firebase_Auth_Demo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA8DD615E6D4BD894EF1EC18 /* Pods-Firebase Auth Demo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Firebase Auth Demo.debug.xcconfig"; path = "Target Support Files/Pods-Firebase Auth Demo/Pods-Firebase Auth Demo.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -45,7 +49,6 @@
 				DA8DD615E6D4BD894EF1EC18 /* Pods-Firebase Auth Demo.debug.xcconfig */,
 				46A1EB70BBDABD2A8121D7B4 /* Pods-Firebase Auth Demo.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -79,7 +82,9 @@
 			isa = PBXGroup;
 			children = (
 				51BCB38F2751140900C848DF /* Firebase_Auth_DemoApp.swift */,
+				51CEBDAC27514ECD00661DAC /* LaunchView.swift */,
 				51BCB3912751140900C848DF /* ContentView.swift */,
+				51CEBDAA2751494800661DAC /* LoginForm.swift */,
 				51BCB3932751140D00C848DF /* Assets.xcassets */,
 				51BCB39D275114CC00C848DF /* GoogleService-Info.plist */,
 				51BCB3952751140D00C848DF /* Preview Content */,
@@ -211,6 +216,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				51BCB3922751140900C848DF /* ContentView.swift in Sources */,
+				51CEBDAD27514ECD00661DAC /* LaunchView.swift in Sources */,
+				51CEBDAB2751494800661DAC /* LoginForm.swift in Sources */,
 				51BCB3902751140900C848DF /* Firebase_Auth_DemoApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
